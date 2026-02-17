@@ -40,7 +40,7 @@ class World {
 
 	render() {
 		this.mainViewport.update();
-		this.updateChunks(400);
+		this.updateChunks(1000);
 		ctx.fillStyle = "#000000";
 		ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -50,3 +50,4 @@ class World {
 	}
 
 }
+
