@@ -12,7 +12,7 @@ let leftKey = false;
 let rightKey = false;
 
 let chunkSize = 32;
-let chunkResolution = 16;
+let chunkResolution = 64;
 let frameCount = 0;
 
 function openFullscreen() {
@@ -69,5 +69,6 @@ function loop() {
     frameCount++;
     requestAnimationFrame(loop);
 }
+
 
 initialize();
