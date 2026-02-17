@@ -5,6 +5,11 @@ class World {
 		this.noiseScale = 0.001;
 		this.seed = 1;
 		this.isoLevel = 0;
+		this.availableWorkers = [];
+
+		for(let i = 0; i < 4; i++) {
+			this.availableWorkers.push(new Worker("chunkWorker.js"));
+		}
 	}
 
 	attachViewport(viewport) {
@@ -50,5 +55,6 @@ class World {
 	}
 
 }
+
 
 
