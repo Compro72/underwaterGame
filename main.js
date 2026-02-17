@@ -11,7 +11,7 @@ let downKey = false;
 let leftKey = false;
 let rightKey = false;
 
-let chunkSize = 32;
+let chunkSize = 8;
 let chunkResolution = 64;
 let frameCount = 0;
 
@@ -54,7 +54,7 @@ function initialize() {
     window.addEventListener('keydown', handleKeyDown);
     window.addEventListener('keyup', handleKeyUp);
 
-    canvas.width = 1920; 
+    canvas.width = 1920;
     canvas.height = 1080;
 
     viewport = new Viewport(0, 0);
@@ -72,3 +72,4 @@ function loop() {
 
 
 initialize();
+
