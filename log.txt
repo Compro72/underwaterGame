@@ -1,0 +1,6 @@
+February 12, 2026
+
+Created the SimplexNoise class and constructor
+Implemented the SimplexNoise.sample() method.
+Created JavaScript, HTML, CSS canvas boilerplate code
+Displayed SimplexNoise onto the canvas
